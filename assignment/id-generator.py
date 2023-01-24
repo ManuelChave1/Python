@@ -1,0 +1,27 @@
+
+print("Please enter the following information:")
+first_name = input("First name:")
+last_name = input("Laste name:")
+email = input("Email address:")
+phone_number = input("Phone number:")
+job_title = input("Job title:")
+id_number = input("ID Number:")
+hair= input("Hair:")
+eyes= input("Eyes:")
+month = input ("Month:")
+training = input("Trainig:")
+
+
+
+print("The ID card is:")
+print("...................................")
+print(f"{last_name.upper()}, {first_name.capitalize()}")
+print(job_title.title())
+print("ID:", id_number)
+print()
+print(email.lower())
+print(phone_number)
+print()
+print(f"Hair: {hair.capitalize():14}  Eyes: {eyes.capitalize()}")
+print(f"Month: {month.capitalize():14} Training: {training.capitalize()}")
+print("....................................")

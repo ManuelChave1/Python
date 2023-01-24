@@ -1,0 +1,10 @@
+print("Please enter the following:")
+adjective = input("Adjetive:")
+animal = input( "Animal:")
+verb = input("Verb:")
+exclamation = input("Exclamation:")
+verb1 = input( "Verb:")
+verb2 = input("Verb:")
+output = f'The other day,I was really in trouble.  all started when I saw a very {adjective} {animal} {verb} down the hallway. "{exclamation.capitalize()}"! I yelled. But all I could think to do was to {verb1} over and over. Miraculously, that caused it to stop, but not before it tried to {verb2} right in front of my family.'
+print("Your story is:")
+print(output)
